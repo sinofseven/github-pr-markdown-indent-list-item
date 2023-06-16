@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "github-pr-markdown-indent-list-item",
+  "version": "0.1.0",
+  "host_permissions": ["https://github.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["index.js"],
+      "css": ["index.css"]
+    }
+  ]
+}

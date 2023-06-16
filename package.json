@@ -1,0 +1,15 @@
+{
+  "name": "github-pr-markdown-indent-list-item",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "rm -rf ./dist && tsc && cp manifest.json dist/ && cp src/index.css dist/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^2.8.8",
+    "typescript": "^5.1.3"
+  }
+}
